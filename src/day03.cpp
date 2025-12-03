@@ -75,6 +75,7 @@ int solve2(vector<string> v) {
                 if (c > highest) {
                     highest = c;
                     n = j;
+                    if (c == '9') break;
                 }
             }
             // once it finds the character, add it to digits and move on
